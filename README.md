@@ -19,3 +19,19 @@ Run the file alg.py through the shell:
 pyhton alg.py #arg1 #arg2 #arg3 #arg4 #arg5 #arg6 #arg7 
 
 ```
+#arg1=
+#arg2=
+#arg3=
+#arg4=
+#arg5=
+#arg6=
+#arg7=
+
+## Contact
+
+Mauro Coletto, CNR Pisa - IMT Lucca
+
+mauro.coletto@isti.cnr.it
+
+mauro.coletto@imtlucca.it
+
