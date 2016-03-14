@@ -6,12 +6,16 @@ Digital traces of conversations in micro-blogging platforms and in OSNs provide 
 The algorithm is written in Python. Data are stored in MongoDB.
 Install it before running the code (MongoDB and Pymongo).
 The algorithm uses the following default libraries:
-  - sys
-  - operator
-  - dateutils
-  - ast
-  - numpy
-  - time and datetime
+  + sys
+  + operator
+  + dateutils
+  + ast
+  + numpy
+  + time and datetime
   
   
-Run the file alg.py through the shell: pyhton alg.py #arg1 #arg2 #arg3 #arg4 #arg5 #arg6 #arg7 
+Run the file alg.py through the shell: 
+```
+pyhton alg.py #arg1 #arg2 #arg3 #arg4 #arg5 #arg6 #arg7 
+
+```
