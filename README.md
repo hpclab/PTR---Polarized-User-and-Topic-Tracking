@@ -15,17 +15,20 @@ The algorithm uses the following default libraries:
   
   
 Run the file alg.py through the shell: 
+
 ```
 pyhton alg.py arg1 arg2 arg3 arg4 arg5 arg6 arg7 
 
 ```
-#arg1= name of DB (database in MongoDB where to store data)
-#arg2= name of Colleciton in MongoDB to be used (or a new name to create one)
-#arg3= input file with Twitter data in json structure as it is from APIs (example in file 'data' attached to the project)
-#arg4= boolean (1 or 0) to indicate which version of the algorithm to be used: 1 = Time PTR, 0 = PTR
-#arg5= number or iterations of the algorithm (PTR) or number of days in the windows at each step (TPTR)
-#arg6= file with the initial seed for polarizing procedure (example in file 'class.txt' attached to the project). Text file with a list of hashtags separated by " " (space). One line per class of polarization and at least one hashtag per line. 
-#arg7= param which indicates the threashold in hashtag extraction procedure (default= 0.02)
+
+arg1= name of DB (database in MongoDB where to store data)
+arg2= name of Colleciton in MongoDB to be used (or a new name to create one)
+arg3= input file with Twitter data in json structure as it is from APIs (example in file 'data' attached to the project)
+arg4= boolean (1 or 0) to indicate which version of the algorithm to be used: 1 = Time PTR, 0 = PTR
+arg5= number or iterations of the algorithm (PTR) or number of days in the windows at each step (TPTR)
+arg6= file with the initial seed for polarizing procedure (example in file 'class.txt' attached to the project). Text file with a list of hashtags separated by " " (space). One line per class of polarization and at least one hashtag per line. 
+arg7= param which indicates the threashold in hashtag extraction procedure (default= 0.02)
+
 
 ## Contact
 
